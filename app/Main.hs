@@ -174,18 +174,3 @@ main = do
     let parse = argsParser default_conf args
     argsChecker parse
     printWolfram parse
-
-
--- generateWolfram :: Conf -> [Int] -> [Char] -> IO ()
--- generateWolfram (Conf ruleNb start linez window move) binRuleNB prevLine
-    -- | linez <= 0 = return ()
-    -- | start > 0 = do
-        -- let newLine = generateNewLine binRuleNB prevLine
-        -- let pimpedLine = pimpMyLine window move newLine
-        -- printMyLine (Conf ruleNb start linez window move) pimpedLine
-        -- generateWolfram (Conf ruleNb (start - 1) linez window move) binRuleNB $ ' ':newLine
-    -- | otherwise = do
-        -- let newLine = generateNewLine binRuleNB prevLine
-        -- let pimpedLine = pimpMyLine window move newLine
-        -- printMyLine (Conf ruleNb start linez window move) pimpedLine
-        -- generateWolfram (Conf ruleNb start (linez - 1) window move) binRuleNB $ ' ':newLine
