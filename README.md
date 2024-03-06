@@ -34,12 +34,12 @@ Only **rule** has to be specified
 
 ## Project:
 
-    This wolfram takes the rule number and convert it to a 8-bit binary number.
-    This binary enables the generation of various rules for the cellular automaton, with each unique rule represented by a distinct binary pattern.
+This wolfram takes the rule number and convert it to a 8-bit binary number.
+This binary enables the generation of various rules for the cellular automaton, with each unique rule represented by a distinct binary pattern.
 
 ![Wolfram Binary Rules](include/wolfram_Binrules.svg)    
 
-    The generation process is fundamentally based on the examination of three cells at a time, shifting by one position at each step, to indentify an exhaustive pattern and complete the next line.
+The generation process is fundamentally based on the examination of three cells at a time, shifting by one position at each step, to indentify an exhaustive pattern and complete the next line.
 
 ![Wolfram Explicative GIF](include/One-d-cellular-automate-rule-30.gif)
 
