@@ -1,6 +1,6 @@
 # Wolfram
 
-![Wolfram](include/wolfram_pic.svg)
+![Wolfram(rule==150)](include/wallfram_screen.png)
 
 ## Installation:
 
@@ -37,7 +37,7 @@ Only **rule** has to be specified
 This wolfram takes the rule number and convert it to a 8-bit binary number.
 This binary enables the generation of various rules for the cellular automaton, with each unique rule represented by a distinct binary pattern.
 
-![Wolfram Binary Rules](include/wolfram_Binrules.svg)    
+![Wolfram Binary Rules](include/wallfram_screen_rule.png)    
 
 The generation process is fundamentally based on the examination of three cells at a time, shifting by one position at each step, to indentify an exhaustive pattern and complete the next line.
 
